@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/vca/vca.kicad_sch</source>
-    <date>Fri 29 Dec 2023 11:40:55 AM CST</date>
+    <date>Tue 02 Jan 2024 04:05:47 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -79,10 +79,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>544dc6cb-e7ac-42bf-9e0b-29265264329f</tstamps>
     </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14fb28c-009e-424c-a0b3-327508d42438</tstamps>
+    </comp>
     <comp ref="D1">
       <value>BAT54SL</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="PartNum">863-BAT54SLT1G</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
       <libsource lib="Device" part="D_Dual_Series_AKC" description="Dual diode, anode/cathode/center"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="863-BAT54SLT1G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Dual diode, anode/cathode/center"/>
@@ -93,7 +110,13 @@
     <comp ref="D2">
       <value>BAT54SL</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="PartNum">863-BAT54SLT1G</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
       <libsource lib="Device" part="D_Dual_Series_AKC" description="Dual diode, anode/cathode/center"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="863-BAT54SLT1G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Dual diode, anode/cathode/center"/>
@@ -112,164 +135,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>79ebd12e-b5ff-47d0-8c9b-b8e6c1ee380e</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b8addac9-e25a-49a6-8458-7ab33652830d</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8ea296d7-f8e1-4340-9761-a68a8412c625</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5bbe19ad-8c86-49b1-9718-7e630015d8d2</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3d135d91-3562-4d74-8cd4-9b4255a85f2e</tstamps>
-    </comp>
-    <comp ref="H5">
-      <value>Input lvl</value>
-      <footprint>eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4cb8c14b-502c-4202-b69d-88b7e2d275c7</tstamps>
-    </comp>
-    <comp ref="H6">
-      <value>Control lvl</value>
-      <footprint>eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b7f07743-681c-49de-92fa-e9b7c114d82f</tstamps>
-    </comp>
-    <comp ref="H7">
-      <value>Gain</value>
-      <footprint>eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>56f77b64-a515-41ea-8c97-e1109c5ec0af</tstamps>
-    </comp>
-    <comp ref="H8">
-      <value>Signal 1</value>
-      <footprint>eurorack:Mech-AudioJack-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>37941683-03dc-43d6-b83b-ab3663e796aa</tstamps>
-    </comp>
-    <comp ref="H9">
-      <value>Signal 2</value>
-      <footprint>eurorack:Mech-AudioJack-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>025606a9-3b67-4908-8ab0-5e4589ed8d29</tstamps>
-    </comp>
-    <comp ref="H10">
-      <value>CV 1</value>
-      <footprint>eurorack:Mech-AudioJack-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>60b652e4-a14e-47a1-ba09-85ac53fefb6e</tstamps>
-    </comp>
-    <comp ref="H11">
-      <value>CV 2</value>
-      <footprint>eurorack:Mech-AudioJack-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7f3ceeb6-de1a-4995-ab9b-af5a0900a905</tstamps>
-    </comp>
-    <comp ref="H12">
-      <value>Out 1</value>
-      <footprint>eurorack:Mech-AudioJack-Hole-Output</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8f39e64f-30eb-4e35-bac2-b0d6901042a2</tstamps>
-    </comp>
-    <comp ref="H13">
-      <value>Out 2</value>
-      <footprint>eurorack:Mech-AudioJack-Hole-Output</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>595d260f-ee6e-4091-8f1b-93a07707b5a5</tstamps>
-    </comp>
-    <comp ref="H14">
-      <value>Input LED</value>
-      <footprint>eurorack:Mech-LED-Hole-4mm</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c16439f8-167c-4096-afc3-5d447d10075a</tstamps>
-    </comp>
     <comp ref="J1">
       <value>Signal 1</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -280,7 +155,13 @@
     <comp ref="J2">
       <value>Signal 2</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -291,7 +172,13 @@
     <comp ref="J3">
       <value>CV 1</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -302,7 +189,13 @@
     <comp ref="J4">
       <value>CV 2</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -313,7 +206,13 @@
     <comp ref="J5">
       <value>Out 1</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -324,7 +223,13 @@
     <comp ref="J6">
       <value>Out 2</value>
       <footprint>eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Audio" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
@@ -335,7 +240,13 @@
     <comp ref="J7">
       <value>Conn_02x05_Odd_Even</value>
       <footprint>eurorack:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PartNum">A-2939</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2939"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -346,7 +257,13 @@
     <comp ref="Q1">
       <value>BCM847</value>
       <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
+      <fields>
+        <field name="PartNum">771-BCM847DS135</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
       <libsource lib="Device" part="Q_Dual_NPN_NPN_E1B1C2E2B2C1" description="Dual NPN transistor, 6 pin package"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="771-BCM847DS135"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Dual NPN transistor, 6 pin package"/>
@@ -357,7 +274,13 @@
     <comp ref="Q2">
       <value>BC547C</value>
       <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <fields>
+        <field name="PartNum">637-BC547C</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
       <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="637-BC547C"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="NPN transistor, collector/base/emitter"/>
@@ -629,14 +552,40 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d2c2cb18-1e11-480c-a89f-f9556cb26ad7</tstamps>
     </comp>
+    <comp ref="R25">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>664f82f9-25fc-4d3d-8ade-01846cba0034</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a9b8778-165d-4e08-95c6-ba105f374523</tstamps>
+    </comp>
     <comp ref="RV1">
       <value>100K LOG*</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Input lvl</field>
+        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Input lvl"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -649,9 +598,13 @@
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Gain</field>
+        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Gain"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -664,9 +617,13 @@
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Control lvl</field>
+        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Control lvl"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -679,9 +636,13 @@
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <fields>
         <field name="Name">Balance</field>
+        <field name="PartNum">A-585</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Name" value="Balance"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-585"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Trim-potentiometer"/>
@@ -694,9 +655,13 @@
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <fields>
         <field name="Name">Offset null</field>
+        <field name="PartNum">A-587</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Name" value="Offset null"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-587"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Trim-potentiometer"/>
@@ -709,9 +674,13 @@
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <fields>
         <field name="Name">Init level</field>
+        <field name="PartNum">A-598</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Name" value="Init level"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Trim-potentiometer"/>
@@ -723,13 +692,19 @@
       <value>TL074</value>
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="PartNum">595-TL074CDR</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
       <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="595-TL074CDR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7fcbb9c4-9bde-4c43-a2d2-bf93792189d0 e674a336-e0be-4200-8307-0b75c70118df 8089b07d-85c4-4c5b-a44c-84a910c10444 ff816f93-ccca-47e1-80a8-b537c6fe1cf4 122939bc-a512-434d-9df5-fdd9edc5b710</tstamps>
+      <tstamps>ff816f93-ccca-47e1-80a8-b537c6fe1cf4 e674a336-e0be-4200-8307-0b75c70118df 8089b07d-85c4-4c5b-a44c-84a910c10444 7fcbb9c4-9bde-4c43-a2d2-bf93792189d0 122939bc-a512-434d-9df5-fdd9edc5b710</tstamps>
     </comp>
   </components>
   <libparts>
@@ -763,6 +738,22 @@
         <pin num="12" name="+" type="input"/>
         <pin num="13" name="-" type="input"/>
         <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Audio" part="AudioJack2_SwitchT">
@@ -957,22 +948,43 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Mechanical" part="MountingHole">
-      <description>Mounting Hole without connection</description>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
       <docs>~</docs>
       <footprints>
-        <fp>MountingHole*</fp>
+        <fp>MountingHole*Pad*</fp>
       </footprints>
       <fields>
         <field name="Reference">H</field>
-        <field name="Value">MountingHole</field>
+        <field name="Value">MountingHole_Pad</field>
         <field name="Datasheet">~</field>
       </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="eurorack" part="MountingHole_Pad_Output">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad_Output</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="output"/>
+      </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Amplifier_Operational">
       <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Audio">
       <uri>/usr/share/kicad/symbols//Connector_Audio.kicad_sym</uri>
@@ -986,6 +998,9 @@
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
+    <library logical="eurorack">
+      <uri>/home/pstiverson/Projects/AR-808/hardware/EurorackKiCAD/Eurorack.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+12V">
@@ -993,7 +1008,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
@@ -1009,14 +1024,15 @@
       <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
     </net>
-    <net code="3" name="/output">
+    <net code="4" name="/output">
       <node ref="J5" pin="T" pintype="passive"/>
       <node ref="J6" pin="T" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="4" name="GND">
+    <net code="5" name="GND">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="S" pintype="passive"/>
       <node ref="J2" pin="S" pintype="passive"/>
@@ -1033,178 +1049,185 @@
       <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
       <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
       <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="5" name="Net-(C1-Pad1)">
+    <net code="6" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(C1-Pad2)">
+    <net code="7" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(C2-Pad1)">
+    <net code="8" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="J2" pin="T" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C2-Pad2)">
+    <net code="9" name="Net-(C2-Pad2)">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(D1-common)">
+    <net code="10" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D1-common)">
       <node ref="D1" pin="3" pinfunction="common" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(D2-common)">
+    <net code="12" name="Net-(D2-common)">
       <node ref="D2" pin="3" pinfunction="common" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D3-A)">
+    <net code="13" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(J1-PadT)">
+    <net code="14" name="Net-(J1-PadT)">
       <node ref="J1" pin="T" pintype="passive"/>
-      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(J3-PadT)">
+    <net code="15" name="Net-(J3-PadT)">
       <node ref="J3" pin="T" pintype="passive"/>
-      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(J4-PadT)">
+    <net code="16" name="Net-(J4-PadT)">
       <node ref="J4" pin="T" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(J7-Pin_1)">
+    <net code="17" name="Net-(J7-Pin_1)">
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(J7-Pin_10)">
+    <net code="18" name="Net-(J7-Pin_10)">
       <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(Q1A-B1)">
+    <net code="19" name="Net-(Q1A-B1)">
       <node ref="Q1" pin="2" pinfunction="B1" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(Q1A-C1)">
+    <net code="20" name="Net-(Q1A-C1)">
       <node ref="Q1" pin="6" pinfunction="C1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(Q1A-E1)">
+    <net code="21" name="Net-(Q1A-E1)">
       <node ref="Q1" pin="1" pinfunction="E1" pintype="passive"/>
       <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(Q1B-C2)">
+    <net code="22" name="Net-(Q1B-C2)">
       <node ref="Q1" pin="3" pinfunction="C2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(Q2-B)">
+    <net code="23" name="Net-(Q2-B)">
       <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(Q2-E)">
+    <net code="24" name="Net-(Q2-E)">
       <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(R6-Pad2)">
+    <net code="25" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R7-Pad2)">
+    <net code="26" name="Net-(R7-Pad2)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(R10-Pad2)">
+    <net code="27" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
-    <net code="26" name="Net-(R12-Pad1)">
+    <net code="28" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R14-Pad1)">
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(R15-Pad1)">
+    <net code="29" name="Net-(R15-Pad1)">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(R17-Pad2)">
+    <net code="30" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pintype="output"/>
     </net>
-    <net code="30" name="Net-(R19-Pad1)">
+    <net code="31" name="Net-(R19-Pad1)">
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(U1A--)">
+    <net code="32" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(U1A--)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="32" name="Net-(U1B-+)">
+    <net code="34" name="Net-(U1B-+)">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="33" name="Net-(U1B--)">
+    <net code="35" name="Net-(U1B--)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="34" name="Net-(U1C--)">
+    <net code="36" name="Net-(U1C--)">
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
     </net>
-    <net code="35" name="Net-(U1D-+)">
+    <net code="37" name="Net-(U1D-+)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
       <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="36" name="Net-(U1D--)">
+    <net code="38" name="Net-(U1D--)">
       <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
-      <node ref="U1" pin="14" pintype="output"/>
     </net>
-    <net code="37" name="unconnected-(J1-PadTN)">
+    <net code="39" name="unconnected-(J1-PadTN)">
       <node ref="J1" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J2-PadTN)">
+    <net code="40" name="unconnected-(J2-PadTN)">
       <node ref="J2" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J3-PadTN)">
+    <net code="41" name="unconnected-(J3-PadTN)">
       <node ref="J3" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J4-PadTN)">
+    <net code="42" name="unconnected-(J4-PadTN)">
       <node ref="J4" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J5-PadTN)">
+    <net code="43" name="unconnected-(J5-PadTN)">
       <node ref="J5" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J6-PadTN)">
+    <net code="44" name="unconnected-(J6-PadTN)">
       <node ref="J6" pin="TN" pintype="passive+no_connect"/>
     </net>
   </nets>
