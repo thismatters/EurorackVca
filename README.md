@@ -69,3 +69,11 @@ There are part numbers in the [BOM](vca.csv) for many of the parts (not for basi
 * [Love My Switches](https://lovemyswitches.com/): Has [really good knobs](https://lovemyswitches.com/anodized-aluminum-knob-the-lo-fi-1-4-smooth-shaft-12-5mm-od/) to go on those potentiometers!
 * [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. The [V1 circuit](https://oshpark.com/shared_projects/VmwAFYtq) works well.
 
+
+## Changelog
+
+### V2
+
+- [x] Switched to NPN for driving LED
+- [x] Updated design language (redid board layout too!)
+- [x] Switched to SMD discrete transistors

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/pstiverson/Projects/AR-808/hardware/vca/vca.kicad_sch</source>
-    <date>Tue 02 Jan 2024 04:05:47 PM CST</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
+    <date>Fri 09 May 2025 05:42:45 AM CDT</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -272,21 +272,40 @@
       <tstamps>f55669a6-42f4-41d7-a150-60cbf9fe9c0a ef506903-74b3-492e-8b78-8f2d229e0fe9</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>BC547C</value>
-      <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
-        <field name="PartNum">637-BC547C</field>
+        <field name="PartNum">621-BC847C-13-F</field>
         <field name="Vendor">Mouser</field>
       </fields>
-      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <libsource lib="eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="637-BC547C"/>
+      <property name="PartNum" value="621-BC847C-13-F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="NPN transistor, collector/base/emitter"/>
-      <property name="ki_keywords" value="transistor NPN"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9595baae-6b1d-4e05-bad1-df0539d69958</tstamps>
+      <tstamps>0a81a976-d4ed-487d-8763-cd2284bd72cc</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <fields>
+        <field name="PartNum">621-BC847C-13-F</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="621-BC847C-13-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7461007b-c330-41a4-bc48-1d8b594b53d7</tstamps>
     </comp>
     <comp ref="R1">
       <value>100K</value>
@@ -520,7 +539,7 @@
       <tstamps>c2f22fd5-c17b-49d3-af18-b4836de30576</tstamps>
     </comp>
     <comp ref="R22">
-      <value>1K</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -528,7 +547,7 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d70923d3-71cb-4476-8306-8b30d15c3a8f</tstamps>
+      <tstamps>b1aa02df-554b-4b4b-836c-2c9d2f526684</tstamps>
     </comp>
     <comp ref="R23">
       <value>10</value>
@@ -553,7 +572,7 @@
       <tstamps>d2c2cb18-1e11-480c-a89f-f9556cb26ad7</tstamps>
     </comp>
     <comp ref="R25">
-      <value>1K</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -561,10 +580,10 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>664f82f9-25fc-4d3d-8ade-01846cba0034</tstamps>
+      <tstamps>e2b986f6-bc88-468b-b5f9-20074ee98262</tstamps>
     </comp>
     <comp ref="R26">
-      <value>100</value>
+      <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -575,7 +594,7 @@
       <tstamps>7a9b8778-165d-4e08-95c6-ba105f374523</tstamps>
     </comp>
     <comp ref="RV1">
-      <value>100K LOG*</value>
+      <value>A100K</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Input lvl</field>
@@ -594,7 +613,7 @@
       <tstamps>5deed6a6-1162-4d06-9c77-5bb51b0565ff</tstamps>
     </comp>
     <comp ref="RV2">
-      <value>100K LOG*</value>
+      <value>B100K</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Gain</field>
@@ -613,7 +632,7 @@
       <tstamps>1629d8ea-b403-4df3-b0af-6b2ef7e45e95</tstamps>
     </comp>
     <comp ref="RV3">
-      <value>100K LOG*</value>
+      <value>B100K</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Control lvl</field>
@@ -884,20 +903,6 @@
         <pin num="6" name="C1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Q_NPN_CBE">
-      <description>NPN transistor, collector/base/emitter</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NPN_CBE</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="E" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -963,6 +968,26 @@
         <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="eurorack" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline_Wide</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+        <field name="Vendor">Mouser</field>
+        <field name="PartNum">637-BC547C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="eurorack" part="MountingHole_Pad_Output">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -999,7 +1024,7 @@
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="eurorack">
-      <uri>/home/pstiverson/Projects/AR-808/hardware/EurorackKiCAD/Eurorack.kicad_sym</uri>
+      <uri>/home/pstiverson/Projects/AR-808/Eurorack/EurorackKiCAD/Eurorack.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1008,6 +1033,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
@@ -1142,92 +1168,96 @@
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(R6-Pad2)">
+    <net code="25" name="Net-(Q3-B)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(Q3-E)">
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(R7-Pad2)">
+    <net code="28" name="Net-(R7-Pad2)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R10-Pad2)">
+    <net code="29" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
-    <net code="28" name="Net-(R12-Pad1)">
+    <net code="30" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(R15-Pad1)">
+    <net code="31" name="Net-(R15-Pad1)">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(R17-Pad2)">
+    <net code="32" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pintype="output"/>
     </net>
-    <net code="31" name="Net-(R19-Pad1)">
+    <net code="33" name="Net-(R19-Pad1)">
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(R25-Pad2)">
-      <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
-      <node ref="U1" pin="14" pintype="output"/>
-    </net>
-    <net code="33" name="Net-(U1A--)">
+    <net code="34" name="Net-(U1A--)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="34" name="Net-(U1B-+)">
+    <net code="35" name="Net-(U1B-+)">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="35" name="Net-(U1B--)">
+    <net code="36" name="Net-(U1B--)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="36" name="Net-(U1C--)">
+    <net code="37" name="Net-(U1C--)">
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
     </net>
-    <net code="37" name="Net-(U1D-+)">
+    <net code="38" name="Net-(U1D-+)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
       <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="38" name="Net-(U1D--)">
+    <net code="39" name="Net-(U1D--)">
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="39" name="unconnected-(J1-PadTN)">
+    <net code="40" name="unconnected-(J1-PadTN)">
       <node ref="J1" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J2-PadTN)">
+    <net code="41" name="unconnected-(J2-PadTN)">
       <node ref="J2" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J3-PadTN)">
+    <net code="42" name="unconnected-(J3-PadTN)">
       <node ref="J3" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J4-PadTN)">
+    <net code="43" name="unconnected-(J4-PadTN)">
       <node ref="J4" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J5-PadTN)">
+    <net code="44" name="unconnected-(J5-PadTN)">
       <node ref="J5" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J6-PadTN)">
+    <net code="45" name="unconnected-(J6-PadTN)">
       <node ref="J6" pin="TN" pintype="passive+no_connect"/>
     </net>
   </nets>
