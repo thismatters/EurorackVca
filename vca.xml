@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
-    <date>Fri 09 May 2025 05:42:45 AM CDT</date>
+    <date>Wed 31 Dec 2025 04:56:02 PM CST</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -272,7 +272,7 @@
       <tstamps>f55669a6-42f4-41d7-a150-60cbf9fe9c0a ef506903-74b3-492e-8b78-8f2d229e0fe9</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>BC847C</value>
+      <value>BC547C</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
@@ -290,7 +290,7 @@
       <tstamps>0a81a976-d4ed-487d-8763-cd2284bd72cc</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>BC847C</value>
+      <value>BC547C</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
