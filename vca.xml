@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
-    <date>Fri 30 Jan 2026 08:53:48 AM CST</date>
+    <date>Fri 30 Jan 2026 09:12:16 AM CST</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -607,10 +607,14 @@
       <fields>
         <field name="Name">Input lvl</field>
         <field name="Note">Use B100K for DC version</field>
+        <field name="PartNum">A-5407</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Input lvl"/>
       <property name="Note" value="Use B100K for DC version"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -624,10 +628,14 @@
       <fields>
         <field name="Name">Gain</field>
         <field name="Note">Use B100K for DC version</field>
+        <field name="PartNum">A-5407</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Gain"/>
       <property name="Note" value="Use B100K for DC version"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -641,10 +649,14 @@
       <fields>
         <field name="Name">Control lvl</field>
         <field name="Note">Use B100K for DC version</field>
+        <field name="PartNum">A-5407</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Control lvl"/>
       <property name="Note" value="Use B100K for DC version"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-5407"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>

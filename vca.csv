@@ -23,7 +23,7 @@
 "22","R18, R19","2","22K","Resistor_SMD:R_0805_2012Metric","","","",""
 "23","R21","1","33K","Resistor_SMD:R_0805_2012Metric","","","",""
 "24","R23, R24","2","10","Resistor_SMD:R_0805_2012Metric","","","",""
-"25","RV1, RV2, RV3","3","A100K","eurorack:Potentiometer_RV16AF-41-15R1","","","","Use B100K for DC version"
+"25","RV1, RV2, RV3","3","A100K","eurorack:Potentiometer_RV16AF-41-15R1","","Tayda","A-5407","Use B100K for DC version"
 "26","RV4","1","1K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-585",""
 "27","RV5","1","100K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-587",""
 "28","RV6","1","47K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-598",""
