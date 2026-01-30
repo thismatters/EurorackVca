@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
-    <date>Wed 31 Dec 2025 04:56:02 PM CST</date>
+    <date>Fri 30 Jan 2026 08:53:48 AM CST</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,9 +25,13 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>10u*</value>
+      <value>10u 35V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Note">Omit and bridge pads for DC version</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Note" value="Omit and bridge pads for DC version"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -36,9 +40,13 @@
       <tstamps>f50e385b-548c-4523-aae9-7cdf0c2325c5</tstamps>
     </comp>
     <comp ref="C2">
-      <value>10u*</value>
+      <value>10u 35V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Note">Omit and bridge pads for DC version</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Note" value="Omit and bridge pads for DC version"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -125,7 +133,7 @@
       <tstamps>2a80aa3e-aa88-411b-9392-69465f1987f3</tstamps>
     </comp>
     <comp ref="D3">
-      <value>LED</value>
+      <value>LED_GREEN</value>
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -598,13 +606,11 @@
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Input lvl</field>
-        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
-        <field name="Vendor">Tayda</field>
+        <field name="Note">Use B100K for DC version</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Input lvl"/>
-      <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
+      <property name="Note" value="Use B100K for DC version"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -613,17 +619,15 @@
       <tstamps>5deed6a6-1162-4d06-9c77-5bb51b0565ff</tstamps>
     </comp>
     <comp ref="RV2">
-      <value>B100K</value>
+      <value>A100K</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Gain</field>
-        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
-        <field name="Vendor">Tayda</field>
+        <field name="Note">Use B100K for DC version</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Gain"/>
-      <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
+      <property name="Note" value="Use B100K for DC version"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -632,17 +636,15 @@
       <tstamps>1629d8ea-b403-4df3-b0af-6b2ef7e45e95</tstamps>
     </comp>
     <comp ref="RV3">
-      <value>B100K</value>
+      <value>A100K</value>
       <footprint>eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="Name">Control lvl</field>
-        <field name="PartNum">A-5407 (DC Version: A-2963)</field>
-        <field name="Vendor">Tayda</field>
+        <field name="Note">Use B100K for DC version</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Name" value="Control lvl"/>
-      <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-5407 (DC Version: A-2963)"/>
+      <property name="Note" value="Use B100K for DC version"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>

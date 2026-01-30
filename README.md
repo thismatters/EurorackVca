@@ -77,3 +77,4 @@ There are part numbers in the [BOM](vca.csv) for many of the parts (not for basi
 - [x] Switched to NPN for driving LED
 - [x] Updated design language (redid board layout too!)
 - [x] Switched to SMD discrete transistors
+- [x] Corrected BOM issues
