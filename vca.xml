@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
-    <date>Fri 30 Jan 2026 09:12:16 AM CST</date>
+    <date>Sun 01 Feb 2026 09:26:08 AM CST</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>10u 35V</value>
+      <value>10u 35V BP</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <fields>
         <field name="Note">Omit and bridge pads for DC version</field>
@@ -40,7 +40,7 @@
       <tstamps>f50e385b-548c-4523-aae9-7cdf0c2325c5</tstamps>
     </comp>
     <comp ref="C2">
-      <value>10u 35V</value>
+      <value>10u 35V BP</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <fields>
         <field name="Note">Omit and bridge pads for DC version</field>
@@ -55,7 +55,7 @@
       <tstamps>19955d1a-cf31-441c-abac-761e8d94a4c7</tstamps>
     </comp>
     <comp ref="C3">
-      <value>22u 25V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -66,7 +66,7 @@
       <tstamps>91ea48e4-7665-4684-b1cc-b2c65b4f6334</tstamps>
     </comp>
     <comp ref="C4">
-      <value>22u 25V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>

@@ -3,3 +3,6 @@ fp-info-cache
 fp-lib-table
 sym-lib-table
 *-backups/
+*.lck
+*.kicad_sch-bak
+\#auto_saved_files\#

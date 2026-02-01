@@ -1,6 +1,6 @@
 "#","Reference","Qty","Value","Footprint","DNP","Vendor","PartNum","Note"
-"1","C1, C2","2","10u 35V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","","","","Omit and bridge pads for DC version"
-"2","C3, C4","2","22u 25V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","","","",""
+"1","C1, C2","2","10u 35V BP","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","","","","Omit and bridge pads for DC version"
+"2","C3, C4","2","22u 50V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","","","",""
 "3","C5, C6","2","100n","Capacitor_SMD:C_0805_2012Metric","","","",""
 "4","D1, D2","2","BAT54SL","Package_TO_SOT_SMD:SOT-23","","Mouser","863-BAT54SLT1G",""
 "5","D3","1","LED_GREEN","LED_THT:LED_D3.0mm","","","",""
