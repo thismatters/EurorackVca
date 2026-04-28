@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vca/vca.kicad_sch</source>
-    <date>Sun 01 Feb 2026 09:26:08 AM CST</date>
+    <date>Wed 22 Apr 2026 11:26:33 AM CDT</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -280,38 +280,38 @@
       <tstamps>f55669a6-42f4-41d7-a150-60cbf9fe9c0a ef506903-74b3-492e-8b78-8f2d229e0fe9</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>BC547C</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
       <fields>
         <field name="PartNum">621-BC847C-13-F</field>
         <field name="Vendor">Mouser</field>
       </fields>
-      <libsource lib="eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <property name="Vendor" value="Mouser"/>
       <property name="PartNum" value="621-BC847C-13-F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Small Signal Transistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0a81a976-d4ed-487d-8763-cd2284bd72cc</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>BC547C</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
       <fields>
         <field name="PartNum">621-BC847C-13-F</field>
         <field name="Vendor">Mouser</field>
       </fields>
-      <libsource lib="eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <property name="Vendor" value="Mouser"/>
       <property name="PartNum" value="621-BC847C-13-F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vca.kicad_sch"/>
-      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Small Signal Transistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7461007b-c330-41a4-bc48-1d8b594b53d7</tstamps>
     </comp>
@@ -982,24 +982,22 @@
         <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="eurorack" part="BC547">
-      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+    <libpart lib="Transistor_BJT" part="BC847">
+      <description>0.1A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</docs>
       <footprints>
-        <fp>TO?92*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">BC547</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline_Wide</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
-        <field name="Vendor">Mouser</field>
-        <field name="PartNum">637-BC547C</field>
+        <field name="Value">BC847</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</field>
       </fields>
       <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="E" type="passive"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="eurorack" part="MountingHole_Pad_Output">
@@ -1037,6 +1035,9 @@
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
     <library logical="eurorack">
       <uri>/home/pstiverson/Projects/AR-808/Eurorack/EurorackKiCAD/Eurorack.kicad_sym</uri>
     </library>
@@ -1047,7 +1048,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
@@ -1087,7 +1088,7 @@
       <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
-      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
@@ -1173,23 +1174,23 @@
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
     <net code="23" name="Net-(Q2-B)">
-      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
-      <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="R19" pin="2" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(Q2-E)">
-      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
+    <net code="24" name="Net-(Q2-C)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
     <net code="25" name="Net-(Q3-B)">
-      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q3-C)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pintype="output"/>
-    </net>
-    <net code="26" name="Net-(Q3-E)">
-      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
     </net>
     <net code="27" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2" pintype="passive"/>

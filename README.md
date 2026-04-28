@@ -72,6 +72,10 @@ There are part numbers in the [BOM](vca.csv) for many of the parts (not for basi
 
 ## Changelog
 
+### V2a
+
+- [x] Updated to use correct SMD discrete transistors footprint :facepalm:
+
 ### V2
 
 - [x] Switched to NPN for driving LED
